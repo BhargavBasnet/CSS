@@ -1,0 +1,19 @@
+body{
+    border : 1px solid green;
+    height:1000px;
+}
+
+#div1{
+    background-color: blueviolet;
+    /* height: 500px; */
+    /* width: 500px; */
+    /* height:50%; */
+    /* width:70%; Total screen ko 70% linxa yesle chai */
+
+    max-width: 500px ; /*500px vanda dherai chai nahos hai 70%*/
+    max-height: 300px; /*300px vanda dherai chai nahos hai 50% */
+
+
+    min-width: 1000px ;
+    min-height: 300px;
+}

@@ -1,0 +1,23 @@
+@font-face {
+    font-family: abc;
+    src: url('font/CaramelMocacino-MVR6Y');
+}
+
+@font-face {
+    font-family: def;
+    src: url('font/Orbitron-VariableFont_wght');
+}
+
+
+h1{
+    font-weight: 200;
+    font-family: abc;
+}
+p{
+    font-size: 30px;
+    font-weight: regular;
+    font-style: italic;
+    font-variant: small-caps; /*first capital letter aru vand thulo hunxa*/
+    font-family: def;
+
+}

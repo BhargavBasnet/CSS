@@ -1,0 +1,62 @@
+/************* Element Selector *******************/
+li{
+    color:red
+}
+
+/************* ID Selector *******************/
+#list2{
+    color:blue;
+}
+
+/************* Class Selector *******************/
+.list5{
+    color:green;
+}
+
+/************* Pseudo Class *******************/
+a:hover{
+    color:red;
+}
+
+/************* Pseudo Element *******************/
+p::first-line{
+    color: blue;
+}
+
+/************* Attribute Selctor *******************/
+a[href="https://www.google.com"]{
+    color:pink;
+}
+
+/************* Universal Selctor *******************/
+*{
+    border: 1px solid black;;
+}
+
+/*************  Selector *******************/
+div a{
+    text-decoration: none; 
+}
+/*Div vitra ko any anchor tag style hunxa, direct child hunu pardaina*/
+
+
+div>a{
+    color:red; 
+}
+/* Aba yo style hudaina because anchor tag div ko direct child haina ">" is direct child  */
+
+div +a{
+    color:pink;
+}
+/*Outside Div style gardinxa*/
+/*************  Selctor *******************/
+
+h1,p{
+    color:red
+}
+
+
+
+
+
+

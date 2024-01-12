@@ -1,0 +1,27 @@
+/* li:first-child{
+    color:blue
+}li:last-child{
+    color:blue
+}
+li:nth-child(4){
+    color:blue
+} */
+
+li:nth-child(even){
+    color:blue
+}
+input.focus{
+    border: 2px solid blue;
+}
+
+p::first-letter{
+    font-size: 30px;
+    color:blue;
+}
+h1::before{
+    content: url(arrow.jpeg);
+}
+
+::selection{
+    color: pink;
+}

@@ -1,0 +1,13 @@
+html{
+    font-size: 20px;
+}
+
+#parent{
+    font-size: 10px;
+}
+
+#child{
+     font-size: 2rem;/* 9times of the html font-size */
+    /* font-size: 2em; */
+    /* font-size: 8vh; 8% of the total viewport */
+}

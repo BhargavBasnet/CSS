@@ -1,0 +1,61 @@
+/**********************************PART 1*****************************************************/
+ /* img{
+    width: 100px;
+    height: auto;
+    padding: 10px;
+}
+#img1{
+    float: right;
+}
+#img2{
+    float: left;
+    padding
+} */
+/**********************************PART 2*****************************************************/
+/* ul{
+    background-color: green;
+    list-style-type:none;
+    border: 1px solid red;
+    overflow: auto;
+}
+li{
+    color:black;
+    padding: 5px 10px;
+    float: left;
+} */ 
+/**********************************PART 3*****************************************************/
+/* p{
+    border: 1px solid black;
+    overflow: auto;
+}
+img{
+    width:100px;
+    height: auto;
+}
+#img1{
+float: right;
+}
+#img2{
+float: right;
+
+clear:right;
+} */
+
+/**********************************PART 4*****************************************************/
+#content{
+    width: 70%;
+    background-color: green;
+    height: 200px;
+    float: right;
+}
+#sidebar{
+    width: 30%;
+    background-color: indianred;
+    height: 150px;
+    float: left;
+}
+#footer{
+    background-color: blue;
+    color: white;
+    clear: both;
+}

@@ -1,0 +1,27 @@
+#border
+{
+    border-style : solid;
+    /* border-style: solid dashed none dotted; top right bottom left */
+    border-width: 5px 10px 2px 0px;
+    border-color: red yellow blue green;
+
+    /*
+    Shortcut for above 3 lines of code :-
+        border : 5px solid green ;
+    */
+    border-top-style: solid;
+    border-top-width: 20px;
+    border-top-color: blue; 
+
+    border-radius: 20px 10px 5px 60px;
+    border-bottom-right-radius : 10px;
+
+    
+    /* border-radius: 50%; for circle */
+    margin-top: 100px;
+    
+
+
+
+
+}

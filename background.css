@@ -1,0 +1,12 @@
+#bg{
+    background-image: url('1.jpg');
+    /* background-repeat:repeat-x; */
+    /* background-position: center center; bckground-position: 5% 5%; */
+    /* background-size: 500px 700px; 500-->X-Axis , 700-->Y-Axis */
+    /* background-attachment: fixed; fixed hunxa page sangai*/
+    background-attachment: scroll; 
+    background-size : contain;
+}
+body{
+    background-color: red;
+}
